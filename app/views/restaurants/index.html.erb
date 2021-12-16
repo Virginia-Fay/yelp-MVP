@@ -1,0 +1,9 @@
+<h2>Restaurants</h2>
+<%= @restaurants.count %>
+<ul>
+  <% @restaurants.each do |restaurant| %>
+    <li>
+      <%= restaurant.name %>
+    </li>
+  <% end %>
+</ul>
